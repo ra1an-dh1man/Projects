@@ -1,0 +1,15 @@
+
+.calculator {
+    border: 3px solid rgb(85, 74, 74);
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 400px; 
+    margin: auto; 
+    justify-content: center;
+    align-items: center;
+
+
+    background-color: rgb(106, 178, 191);
+}

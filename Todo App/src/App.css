@@ -1,0 +1,30 @@
+input{
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  font-size: large;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+
+input:hover{
+  border-radius: 10px;
+}
+
+button{
+  width: 80px;
+
+  margin: 3%;
+}
+
+.row{
+  text-align: left;
+  margin: 5px;
+}
+
+
+.todo-container{
+  margin: 5px;
+  margin-left: 10px;
+}
