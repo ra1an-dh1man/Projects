@@ -12,6 +12,9 @@ public class PanAadhaarMatcherApp {
 
         Aadhaar aadhaar = aadhaarService.getAadhaarByNumber(aadhaarNumber);
         Pan pan = panService.getPanByAadhaar(aadhaarNumber);
+
+        scn.close();
+
         if(aadhaar != null && pan != null) {
             System.out.println("Aadhar Details= "  + aadhaar);
             System.out.println("Pan Details= " + pan);

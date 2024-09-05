@@ -19,7 +19,7 @@ let winningPattern = [
     [6, 7, 8]
 ];
 
-const resetGame = () => 
+const resetGame = () =>
     {
         turnO = true;
         boxEnable();
