@@ -1,0 +1,37 @@
+.App {
+  align-items: center;
+  background-color: rgb(93, 131, 143);
+}
+
+.dateSet {
+  background-color: rgb(52, 128, 147);
+  margin: 12px;
+  height: 20px;
+  border: none;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: rgb(93, 131, 143);
+    border: 2px solid black;
+    font-size: large;
+  }
+}
+
+.heading {
+  text-align: center;
+  background-color: teal;
+  margin: 1px;
+}
+
+.fileInput {
+  margin: 12px;
+  background-color: rgb(52, 128, 147);
+  transition: all 0.3s;
+
+
+  &:hover {
+    background-color: rgb(93, 131, 143);
+    border: 2px solid black;
+    font-size: medium;
+  }
+  }
