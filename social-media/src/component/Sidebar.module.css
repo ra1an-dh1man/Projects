@@ -1,0 +1,10 @@
+.logo{
+    height: 90px;
+    width: 90px;
+    margin-left: -20px;
+    &:hover{
+        transition:  0.5s ease-in-out;
+        border-radius: 15px;
+    }
+}
+
