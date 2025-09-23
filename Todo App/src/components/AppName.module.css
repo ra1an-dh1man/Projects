@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 h1{
     margin-top: 5px;
@@ -5,4 +6,13 @@ h1{
     background-color: grey;
     border: 2px solid grey;
     width: 45%;
+=======
+
+h1{
+    margin-top: 5px;
+    text-align: center;
+    background-color: grey;
+    border: 2px solid grey;
+    width: 45%;
+>>>>>>> bcc69c020710eb416c918aed627af15e2b2dd9fd
   } 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .button_container{
     display: flex;
     flex-wrap: wrap;
@@ -20,4 +21,28 @@
     border-radius: 10px;
     border: 2px solid;
     font-size: 30px;
+=======
+.button_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.button{
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    width: 45px;
+    margin: 3px;
+    font-size: 20px;
+}
+
+.button:hover{
+    border-radius: 10px;
+    border: 2px solid;
+    font-size: 30px;
+>>>>>>> bcc69c020710eb416c918aed627af15e2b2dd9fd
 }
