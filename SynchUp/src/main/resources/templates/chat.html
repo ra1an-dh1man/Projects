@@ -124,7 +124,7 @@
     </style>
   </head>
   <body>
-    <scipt>
+    <script>
       import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
       const auth = getAuth();
       onAuthStateChanged(auth, (user) => {
@@ -132,7 +132,7 @@
         window.location.href = "/";
   }
 });
-    </scipt>
+    </script>
     <div class="header">
       <div class="logo-header">
         <img id="logo" src="/media/logo.png" alt="SynchUp Logo" />
