@@ -10,6 +10,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ChatController {
 
+    @GetMapping("/")
+    public String home() {
+        return "home"; // home.html in templates folder
+    }
+
+    @GetMapping("/signUp")
+    public String signUp(){
+        return "signUp";
+    }
+
     @MessageMapping("/sendMessage") //Maps Websocket messages to the destination
     @SendTo("/topic/messages")
     public ChatMessage sendMessage(ChatMessage message){

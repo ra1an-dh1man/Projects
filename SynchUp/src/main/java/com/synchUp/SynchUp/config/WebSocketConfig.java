@@ -7,15 +7,15 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
 
 @Configuration
-@EnableWebSocketMessageBroker //used for routing messages to the right place
+@EnableWebSocketMessageBroker 
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
         registry.addEndpoint("/chat")
                 .setAllowedOrigins("/http://localhost:8080")
-                .withSockJS(); //i used it for making my app compatible for the clients that don't support web socket to make my project more reachable
-        }
+                .withSockJS(); 
+               }
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
@@ -25,7 +25,5 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         //This defines the prefix for messages sent from clients to the server.
         registry.setApplicationDestinationPrefixes("/app");
     }
-
-
 
 }
