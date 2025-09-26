@@ -12,7 +12,7 @@ public class ChatController {
 
     @GetMapping("/")
     public String home() {
-        return "home"; // home.html in templates folder
+        return "Home"; 
     }
 
     @GetMapping("/signUp")
